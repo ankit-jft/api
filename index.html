@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DataBase</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="main">
+
+            Name<input type="text " id="names"><br><br>
+            Job<input type="text" id="job"><br><br>
+            Salary<input type="number" id="salary"><br><br>
+            <button id="addbtn">Add</button>
+            <button id="updatebtn" style="display: none;">Update</button>
+        </div>
+        <table>
+            <tr>
+
+                <th>Name</th>
+                <th>Job</th>
+                <th>Salary</th>
+                <th>Action</th>
+
+            </tr>
+            <tbody id="empDetails"></tbody>
+
+        </table>
+
+
+
+    </div>
+
+
+
+</body>
+<script src="./api.js"></script>
+<script src="./app.js"></script>
+
+</html>
